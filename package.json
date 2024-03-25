@@ -2,7 +2,7 @@
   "name": "turborepo-playground",
   "private": true,
   "scripts": {
-    "build": "turbo build",
+    "build": "TURBO_REMOTE_CACHE_SIGNATURE_KEY=xuEJo9vfKQLr8iPMPSzerjQQ turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
